@@ -14,6 +14,11 @@ public class DataTypes {
 	long i = 3432425;
 	short s = 2345;
 	
+	// Non primitive data types
+	
+	String sText = "hello world this is core java";
+
+	
 	// Behavior
 	public void Addition()
 	{
