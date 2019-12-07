@@ -15,10 +15,10 @@ public class DataTypes {
 	short s = 2345;
 	
 	// Non primitive data types
-	
 	String sText = "hello world this is core java";
-
+	String[] EmpNames = {"Shravan","Dinesh","John","Peter","Manning","Sjoerd","Eric"};
 	
+
 	// Behavior
 	public void Addition()
 	{
@@ -77,7 +77,19 @@ public class DataTypes {
 		dt.Mutiplication();
 		dt.Division();
 		dt.Modulus();
-			
+		
+		String[] EmpNames = {"Shravan","Dinesh","John","Peter","Manning","Sjoerd","Eric"};
+		System.out.println(EmpNames[0]);
+		System.out.println(EmpNames.length);
+		
+		for (String name : EmpNames) {
+			System.out.println("Employee name is : " + name);
+		}
+		
+		for (int i = 0; i < EmpNames.length; i++) {
+			System.out.println(EmpNames[i]);
+		}
+	
 	}
 
 }
