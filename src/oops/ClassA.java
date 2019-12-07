@@ -2,7 +2,7 @@ package oops;
 
 public class ClassA {
 
-	int a=10; // Variables
+	int a=10;
 	int b=20;
 	
 	public void Addition()
