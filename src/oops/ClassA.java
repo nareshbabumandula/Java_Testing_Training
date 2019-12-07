@@ -2,6 +2,7 @@ package oops;
 
 public class ClassA {
 
+	// Variables
 	int a=10;
 	int b=20;
 	
