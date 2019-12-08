@@ -1,6 +1,7 @@
 package basics;
 
-public class DataTypes {
+
+public class DataTypes{
 
 	// Characteristics or attributes or data members
 	// Primitive data types
@@ -62,6 +63,7 @@ public class DataTypes {
 		// Classname objName = new Constructor name (Always Constructor name will be same as a class name)
 		DataTypes dt = new DataTypes();
 		
+		
 		System.out.println(dt.a);
 		System.out.println(dt.b);
 		System.out.println(dt.c);
@@ -89,6 +91,8 @@ public class DataTypes {
 		for (int i = 0; i < EmpNames.length; i++) {
 			System.out.println(EmpNames[i]);
 		}
+		
+		
 	
 	}
 
