@@ -1,14 +1,19 @@
 package webdriver.scripts;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
-public class LaunchBrowser {
+import object.repository.Login;
+import object.repository.Register;
+
+public class LaunchBrowser extends Login{
 
 	WebDriver driver;
+	
+	// Create object for Register class
+	Register reg = new Register();
 
 	public void AccessSite(String BROWSER, String URL)
 	{
@@ -36,8 +41,17 @@ public class LaunchBrowser {
 		// Maximize the browser window
 		driver.manage().window().maximize();
 		System.out.println(driver.getTitle());
-		driver.findElement(By.name("userName")).sendKeys("Shravan");
-		driver.findElement(By.name("password")).sendKeys("Secure1234");
+		
+		//driver.findElement(By.name("userName")).sendKeys("Shravan"); // WebDriver Syntax
+		driver.findElement(USERNAME).sendKeys("Shravan"); // WebDriver with POM
+		
+		//driver.findElement(By.name("password")).sendKeys("Secure1234");
+		driver.findElement(PASSWORD).sendKeys("Secure1234");
+		
+		driver.findElement(reg.REGISTER).click();
+		driver.findElement(reg.FIRSTNAME).sendKeys("Dinesh Patel");
+		
+		
 		//driver.quit();
 
 	}
