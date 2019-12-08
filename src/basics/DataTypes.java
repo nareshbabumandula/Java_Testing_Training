@@ -5,15 +5,15 @@ public class DataTypes{
 
 	// Characteristics or attributes or data members
 	// Primitive data types
-	int a=10;
-	float b = 12.4f;
-	boolean c = true;
-	boolean d = false;
-	double e = 234.345434;
-	char f = 'g';
-	byte h = 127;
-	long i = 3432425;
-	short s = 2345;
+	public int a=10;
+	public float b = 12.4f;
+	public boolean c = true;
+	public boolean d = false;
+	public double e = 234.345434;
+	public char f = 'g';
+	public byte h = 127;
+	public long i = 3432425;
+	public short s = 2345;
 	
 	// Non primitive data types for demo
 	String sText = "hello world this is core java";
