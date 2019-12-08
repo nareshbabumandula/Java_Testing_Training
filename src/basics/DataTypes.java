@@ -15,7 +15,7 @@ public class DataTypes{
 	long i = 3432425;
 	short s = 2345;
 	
-	// Non primitive data types
+	// Non primitive data types for demo
 	String sText = "hello world this is core java";
 	String[] EmpNames = {"Shravan","Dinesh","John","Peter","Manning","Sjoerd","Eric"};
 	
