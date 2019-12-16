@@ -16,8 +16,9 @@ public class HashMapTest {
 	public void HashMapExample()
 	{
 		HashMap<Integer,String> map = new HashMap<Integer,String>();
-		System.out.println("Elements in hashmap before insertion are : " + map);
 		
+		System.out.println("Elements in hashmap before insertion are : " + map);
+
 		map.put(1, "Selenium");
 		map.put(2, "UFT");
 		map.put(3, "TestComplete");

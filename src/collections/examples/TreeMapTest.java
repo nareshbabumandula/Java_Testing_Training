@@ -16,7 +16,7 @@ public class TreeMapTest {
 	 */
 	public void TreeMapExample()
 	{
-		HashMap<Integer, String> map = new HashMap<Integer,String>();
+		TreeMap<Integer,String> map = new TreeMap<Integer,String>();   
 		System.out.println("Elements in hashmap before insertion are : " + map);
 		
 		map.put(1, "Selenium");

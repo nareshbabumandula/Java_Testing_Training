@@ -1,6 +1,5 @@
 package collections.examples;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -29,6 +28,8 @@ public class HashSetTest {
 		list.add("Naresh");
 		list.add("Kiran");
 		list.add("Pratima");
+		
+		System.out.println(list);  // Prints all elements from the list
 		System.out.println(list.size()); // return the size of the collection
 		
 		Iterator<String> itr = list.iterator();
